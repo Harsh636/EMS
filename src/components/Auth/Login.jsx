@@ -13,7 +13,7 @@ const Login = ({ handleLogin }) => {
     console.log("hello guys");
     e.preventDefault();
     handleLogin(details.email, details.password);
-
+    // window.location.reload();
     setDetails({ email: "", password: "" });
   };
   return (

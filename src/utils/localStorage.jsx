@@ -7,14 +7,14 @@ const employees = [
     password: "123",
     taskCount: {
       active: 2,
-      newTask: 1,
+      newTask: 0,
       complete: 1,
       failed: 0,
     },
     tasks: [
       {
         active: true,
-        newTask: true,
+        newTask: false,
         complete: false,
         failed: false,
         taskTitle: "Design Login Page",
@@ -68,7 +68,7 @@ const employees = [
       },
       {
         active: true,
-        newTask: true,
+        newTask: false,
         complete: false,
         failed: false,
         taskTitle: "API Integration",

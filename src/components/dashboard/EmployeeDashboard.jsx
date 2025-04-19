@@ -3,10 +3,10 @@ import Header from "../others/Header";
 import TaskListNumber from "../others/TaskListNumber";
 import TaskList from "../TaskList/TaskList";
 
-const EmployeeDashboard = ({data}) => {
+const EmployeeDashboard = ({data, setUser}) => {
   return (
     <div className="p-10 bg-[#1C1C1C] h-screen">
-      <Header data={data}/>
+      <Header data={data} setUser={setUser}/>
       <TaskListNumber data={data}/>
       <TaskList data={data}/>
     </div>
